@@ -11,8 +11,8 @@
 # **************************************************************************** #
 
 NAME = libftprintf.a
-SRCS = ft_printf.c ft_printchar.c ft_printnbr.c ft_printstr.c ft_strlen.c\
-ft_printhex.c ft_printptr.c ft_printunsigned.c
+SRCS = ft_printf.c ft_printchar.c ft_printnbr.c ft_printstr.c ft_printhex.c\
+		ft_printptr.c ft_printunsigned.c
 INC = ft_printf.h
 OBJS = $(SRCS:.c=.o)
 CFLAGS = -g -Wall -Werror -Wextra

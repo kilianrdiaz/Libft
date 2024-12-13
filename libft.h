@@ -15,6 +15,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+# include <limits.h>
 
 int			ft_atoi(const char *str);
 void		ft_bzero(void *str, size_t n);
@@ -51,5 +52,7 @@ char		*ft_substr(char const *s, unsigned int start, size_t len);
 int			ft_tolower(int c);
 int			ft_toupper(int c);
 char		*get_next_line(int fd);
-
+int			ft_min(int num1, int num2);
+int			ft_max(int num1, int num2);
+long int	ft_atol(const char *str);
 #endif
