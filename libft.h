@@ -6,7 +6,7 @@
 /*   By: kroyo-di <kroyo-di@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/21 20:02:05 by kroyo-di          #+#    #+#             */
-/*   Updated: 2024/11/27 22:11:42 by kroyo-di         ###   ########.fr       */
+/*   Updated: 2024/12/13 17:46:38 by kroyo-di         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,4 +55,6 @@ char		*get_next_line(int fd);
 int			ft_min(int num1, int num2);
 int			ft_max(int num1, int num2);
 long int	ft_atol(const char *str);
+int			ft_strcmp(char *s1, char *s2);
+
 #endif

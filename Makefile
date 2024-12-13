@@ -6,7 +6,7 @@
 #    By: kroyo-di <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/23 19:13:47 by kroyo-di          #+#    #+#              #
-#    Updated: 2024/11/27 22:13:42 by kroyo-di         ###   ########.fr        #
+#    Updated: 2024/12/13 17:46:01 by kroyo-di         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,7 +17,7 @@ SRCS = ft_memset.c ft_bzero.c ft_strlen.c ft_atoi.c ft_isdigit.c ft_isalpha.c\
        ft_strncmp.c ft_toupper.c ft_tolower.c ft_strnstr.c ft_strrchr.c ft_calloc.c\
        ft_substr.c  ft_strjoin.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c\
        ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_max.c ft_min.c\
-	   ft_atol.c get_next_line/get_next_line_bonus.c
+	   ft_atol.c ft_strcmp.c get_next_line/get_next_line_bonus.c
 INC = libft.h
 FT_PRINTF_DIR = ft_printf
 FT_PRINTF = $(FT_PRINTF_DIR)/libftprint.a
